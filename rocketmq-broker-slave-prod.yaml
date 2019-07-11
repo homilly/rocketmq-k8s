@@ -43,7 +43,7 @@ metadata:
   labels:
     app: statefulset-rocketmq-broker-slave-prod
 spec:
-  replicas: 2
+  replicas: 1
   serviceName: service-rocketmq-broker-slave-prod
   selector:
     matchLabels:

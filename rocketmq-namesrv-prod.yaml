@@ -2,7 +2,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  #namespace: rocketmq
+  namespace: rocketmq
   name: service-rocketmq-namesrv-prod
   labels:
     app: service-rocketmq-namesrv-prod
@@ -21,7 +21,7 @@ spec:
 kind: StatefulSet
 apiVersion: apps/v1
 metadata:
-  #namespace: rocketmq
+  namespace: rocketmq
   name: statefulset-rocketmq-namesrv-prod
   labels:
     app: statefulset-rocketmq-namesrv-prod

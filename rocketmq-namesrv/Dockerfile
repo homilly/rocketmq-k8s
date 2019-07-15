@@ -27,4 +27,4 @@ RUN mv ${ROCKETMQ_HOME}/bin/runserver-customize.sh ${ROCKETMQ_HOME}/bin/runserve
 CMD cd ${ROCKETMQ_HOME}/bin \
  && export JAVA_OPT=" -Duser.home=/opt" \
  && dos2unix runserver.sh \
- && sh mqnamesrvcd 
+ && sh mqnamesrv

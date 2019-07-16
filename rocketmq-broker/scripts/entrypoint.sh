@@ -41,7 +41,7 @@ flushDiskType=ASYNC_FLUSH
 ##Broker 对外服务的监听端口
 listenPort=10911
 #nameserver地址，分号分割
-namesrvAddr=${NAME_SRV_ADDR}
+namesrvAddr=${NAMESRV_ADDR}
 #在发送消息时，自动创建服务器不存在的topic，默认创建的队列数
 defaultTopicQueueNums=4
 #是否允许 Broker 自动创建Topic，建议线下开启，线上关闭

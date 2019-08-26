@@ -16,6 +16,8 @@ metadata:
   labels:
     app: service-rocketmq-console-ng-prod
 spec:
+  externalIPs:
+    - 47.95.229.53
   ports:
   - protocol: TCP
     port: 8080
@@ -49,7 +51,6 @@ spec:
       labels:
         app: pod-rocketmq-console-ng-prod
     spec:
-      nodeName: node1
       containers:
       - image: styletang/rocketmq-console-ng
         securityContext:

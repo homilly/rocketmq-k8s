@@ -29,7 +29,7 @@ ENV BROKER_NAME=""
 #是否允许 Broker 自动创建Topic，建议线下开启，线上关闭
 ENV AUTO_CREATE_TOPIC_ENABLE=true
 #是否允许 Broker 自动创建订阅组，建议线下开启，线上关闭
-ENV AUTO_CREATE_SUBSCRIPTION_GROUP=false
+ENV AUTO_CREATE_SUBSCRIPTION_GROUP=true
 #删除文件时间点，默认凌晨 4点
 ENV DELETE_WHEN=4
 #文件保留时间，默认 48 小时
